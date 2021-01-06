@@ -1,0 +1,101 @@
+.login {
+  position: absolute;
+  left: 40%;
+  padding-bottom: 40%;
+  margin: -150px 0 0 -150px;
+  width: 400px;
+}
+
+.login h1 {
+  color: rgb(249, 215, 215);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btn-submit {
+  background-image: linear-gradient(
+    to right,
+    #5200ff,
+    #5c00ff,
+    #6500ff,
+    #6d00ff,
+    #7500ff,
+    #7a00fd,
+    #7e00fa,
+    #8200f8,
+    #8400f3,
+    #8700ee,
+    #8800ea,
+    #8a00e5
+  );
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+}
+
+h4 {
+  color: rgb(249, 215, 215);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 30px;
+}
+
+.login {
+  position: relative;
+  padding: 30px;
+  margin-top: 230px;
+  width: 600px;
+  height: 270px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+}
+.login::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 15%,
+    transparent 50%,
+    transparent 85%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jallan07/project-2.git"
+  },
+  "keywords": [],
+  "author": "Mark Cross, Josh Allan, Baxter Cox, Drew McGhie, Maryangelia Gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jallan07/project-2/issues"
+  },
+  "homepage": "https://github.com/jallan07/project-2#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-oauth2": "^1.5.0",
+    "sequelize": "^6.3.5",
+    "twilio": "^3.53.0"
+  }
+}
